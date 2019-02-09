@@ -1,0 +1,37 @@
+{
+  "name": "discourage",
+  "displayName": "Discourage",
+  "description": "Visual Studio Code extension that adds little discouragement while you work",
+  "version": "0.0.4",
+  "publisher": "rebornix",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "author": {
+    "name": "Peng Lv"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "discourage.toggle",
+        "title": "Toggle Discourage"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.5",
+    "vscode": "^0.11.0"
+  }
+}
