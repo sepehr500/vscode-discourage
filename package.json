@@ -2,7 +2,7 @@
   "name": "discourage",
   "displayName": "Discourage",
   "description": "Visual Studio Code extension that adds little discouragement while you work",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "sepehr500",
   "repository": {
     "url": "https://github.com/sepehr500/vscode-discourage"
@@ -16,6 +16,7 @@
   "categories": [
     "Other"
   ],
+  "icon": "icon.png",
   "activationEvents": [
     "*"
   ],
@@ -29,8 +30,9 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
     "postinstall": "node ./node_modules/vscode/bin/install"
   },
   "devDependencies": {

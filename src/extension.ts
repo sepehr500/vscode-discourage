@@ -76,7 +76,7 @@ class Discourager {
 
     this._statusBarItem.text = this.getRandomDiscouragement();
     this._statusBarItem.show();
-    this.statusBarAutoDismiss(3000);
+    this.statusBarAutoDismiss(5000);
   }
 
   dispose() {
