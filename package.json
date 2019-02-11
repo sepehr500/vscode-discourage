@@ -2,7 +2,7 @@
   "name": "discourage",
   "displayName": "Discourage",
   "description": "Visual Studio Code extension that adds little discouragement while you work",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "sepehr500",
   "repository": {
     "url": "https://github.com/sepehr500/vscode-discourage"

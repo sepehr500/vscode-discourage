@@ -37,9 +37,10 @@ class Discourager {
     "Uh...are you ok?",
     "Not sure about what you just did there...",
     "Do you want me to be nice...or honest?",
-    "Maybe you should take ther rest of the day off...",
+    "Maybe you should take the rest of the day off...",
     "I'm not going to say you made a mistake...but...",
-    "Was that a typo, or..."
+    "Was that a typo, or...",
+    "Yikes..."
   ];
 
   private _timer: any;
