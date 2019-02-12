@@ -34,11 +34,11 @@ class Discourager {
   private _statusBarItem: StatusBarItem;
   private _discouragements = [
     "That was pretty meh...",
-    "Uh...are you ok?",
+    "Uh... are you ok?",
     "Not sure about what you just did there...",
-    "Do you want me to be nice...or honest?",
+    "Do you want me to be nice... or honest?",
     "Maybe you should take the rest of the day off...",
-    "I'm not going to say you made a mistake...but...",
+    "I'm not going to say you made a mistake... but...",
     "Was that a typo, or...",
     "Yikes..."
   ];
